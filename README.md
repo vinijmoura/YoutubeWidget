@@ -1,6 +1,6 @@
 ## Tutorial
 
-The **VSTS Sprints Widgets** all videos of VSTS Sprints Channel within VSTS on your dashbaords.
+The **VSTS Sprints Widgets** shows all videos of VSTS Sprints Channel within VSTS on your dashbaords.
 
 ![sample](img/overview_sample.png)
 
