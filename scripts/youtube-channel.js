@@ -9,7 +9,7 @@ VSS.require(["TFS/Dashboards/WidgetHelpers"],
         VSS.register("VSTSSprintsYouTubeWidget", function () {
 
             var youTubeBaseUrl = 'https://www.googleapis.com/youtube/v3/';
-            var youTubeApiKeyParam = '?key=AIzaSyDc5hz8E8MtQvaV9kpfxUK4R_4dycbnm1M';
+            var youTubeApiKeyParam = '?key=AIzaSyBDXFLg0yL4fMa212cGlLYfk8CYcZPEANA';
 
             var $dropPlaylists = $('#dropPlaylists');
             var $listVideosContainer = $('#listVideosContainer');
@@ -64,7 +64,7 @@ VSS.require(["TFS/Dashboards/WidgetHelpers"],
                 $listVideos.empty();
                 var url = youTubeBaseUrl + 'playlistItems';
                 url += youTubeApiKeyParam;
-                url += '&part=contentDetails,snippet&playlistId=' + playlistId;
+                url += '&part=contentDetails,snippet&maxResults=50&playlistId=' + playlistId;
                 $.get(url,
                     function (data, status) {
                         var result = data;
