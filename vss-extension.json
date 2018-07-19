@@ -1,0 +1,64 @@
+{
+    "manifestVersion": 1,
+    "id": "vsts-sprints-widgets",
+    "version": "1.0.0",
+    "name": "VSTS Sprints Widgets",
+    "description": "Helpful widgets from VSTS Sprints YouTube Channel",
+    "publisher": "vsts-sprints",
+    "icons": {
+        "default": "img/logo.png"
+    },
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "tags": [
+        "VSTSSprints",
+        "Widget"
+    ],
+    "links": {
+        "repository": {
+          "uri": "https://github.com/vinijmoura/YoutubeWidget"
+        },
+        "issues": {
+          "uri": "https://github.com/vinijmoura/YoutubeWidget/issues"
+        },
+        "support": {
+          "uri": "http://aka.ms/vsarcontact"
+        }
+      },
+      "repository": {
+        "type": "git",
+        "uri": "https://github.com/vinijmoura/YoutubeWidget"
+      },
+    "files": [
+        { "path": "youtube-channel.html", "addressable": true },
+        { "path": "sdk/scripts", "addressable": true },
+        { "path": "img", "addressable": true },
+        { "path": "scripts", "addressable": true },
+        { "path": "styles", "addressable": true }
+    ],
+    "contributions": [
+        {
+            "id": "VSTSSprintsYouTubeWidget",
+            "type": "ms.vss-dashboards-web.widget",
+            "targets": [
+                "ms.vss-dashboards-web.widget-catalog"
+            ],
+            "properties": {
+                "name": "Youtube Playlist Browser",
+                "description": "Browse VSTS Sprints playlists on YouTube",                         
+                "uri": "youtube-channel.html",
+                "catalogIconUrl": "img/logo.png",
+                "supportedSizes": [
+                     {
+                            "rowSpan": 4,
+                            "columnSpan": 6
+                        }
+                    ],
+                "supportedScopes": ["project_team"]
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "vstssprints-playground",
+  "version": "1.0.0",
+  "description": "See all videos of VSTS Sprints Channel within VSTS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://vstssprints.visualstudio.com/_git/YoutubeWidget"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vss-web-extension-sdk": "^5.134.0"
+  }
+}
