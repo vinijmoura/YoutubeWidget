@@ -6,9 +6,9 @@ The **VSTS Sprints Widgets** shows all videos of VSTS Sprints Channel within VST
 
 ## Quick steps to get started ###
 
-1. Edit your dashboard.
+1. Create new Dashboard (suggested name "Video Features")
 
-2. Create new Dashboard (suggested name "Video Features") 
+2. Edit your dashboard.
 
 3. Select the **VSTS Sprints Widgets** and click Add.
  
