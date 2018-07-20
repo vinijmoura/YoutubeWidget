@@ -10,13 +10,15 @@ The **VSTS Sprints Widgets** shows all videos of VSTS Sprints Channel within VST
 
 2. Edit your dashboard.
 
-3. Select the **VSTS Sprints Widgets** and click Add.
+3. Select the **Youtube Playlist Browser** and click Add.
+ 
+![sample](img/add_widget.png)
  
 ## Contributors
 We thank the following contributor(s) for this extension: Gustavo Bergamin.
 
 ##Contribute
-Contributions to VSTS Sprints Widget are welcome. Please fork this repo :) 
+Contributions to VSTS Sprints Widget are welcome. Please fork this repo.
 
 - Submit bugs and help us verify fixes.
 - Submit pull requests for bug fixes and features and discuss existing proposals.
