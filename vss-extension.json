@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "vsts-sprints-widgets",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "name": "VSTS Sprints Widgets",
     "description": "Helpful widgets from VSTS Sprints YouTube Channel",
     "publisher": "vsts-sprints",
@@ -17,6 +17,11 @@
         "VSTSSprints",
         "Widget"
     ],
+    "content": {
+        "details": {
+            "path": "README.md"
+        }
+    },
     "links": {
         "repository": {
           "uri": "https://github.com/vinijmoura/YoutubeWidget"
