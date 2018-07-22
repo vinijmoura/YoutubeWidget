@@ -1,6 +1,6 @@
 {
   "name": "vstssprints-playground",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "See all videos of VSTS Sprints Channel within VSTS",
   "main": "index.js",
   "scripts": {
