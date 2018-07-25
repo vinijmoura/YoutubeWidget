@@ -11,8 +11,8 @@
     "url": "https://github.com/vinijmoura/YoutubeWidget"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "VSTS Sprints Widget",
+  "license": "MIT",
   "dependencies": {
     "vss-web-extension-sdk": "^5.134.0"
   }
