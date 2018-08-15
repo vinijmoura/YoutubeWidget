@@ -1,8 +1,8 @@
 ## Tutorial
 
 The **VSTS Sprints Widgets** shows all videos of VSTS Sprints Channel within VSTS on your dashboards.
-   
-![](https://vstssprints.visualstudio.com/401f8d88-e8be-40d6-8f0c-1d3c371b50e8/_apis/build/status/43) 
+
+![](https://vstssprints.visualstudio.com/401f8d88-e8be-40d6-8f0c-1d3c371b50e8/_apis/build/status/43)
 ![](https://vstssprints.vsrm.visualstudio.com/_apis/public/Release/badge/401f8d88-e8be-40d6-8f0c-1d3c371b50e8/1/1)
 
 ![sample](img/overview_sample.png)
