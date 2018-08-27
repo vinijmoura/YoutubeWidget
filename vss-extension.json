@@ -5,6 +5,7 @@
     "name": "VSTS Sprints Widgets",
     "description": "Helpful widgets from VSTS Sprints YouTube Channel",
     "publisher": "vsts-sprints",
+    "categories": ["Collaborate"],
     "icons": {
         "default": "img/logo.png"
     },
