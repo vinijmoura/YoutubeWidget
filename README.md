@@ -1,4 +1,4 @@
-## Tutorial first change
+## Tutorial second change
 
 The **VSTS Sprints Widgets** shows all videos of VSTS Sprints Channel within VSTS on your dashboards.
 
